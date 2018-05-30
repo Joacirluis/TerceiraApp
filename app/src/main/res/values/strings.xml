@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TerceiraApp</string>
+    <string name="insera_seu_email">Insera seu email</string>
+    <string name="insera_seu_senha">Insera seu senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="sair">Sair</string>
+</resources>

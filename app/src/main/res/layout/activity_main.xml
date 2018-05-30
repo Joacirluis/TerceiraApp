@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="senac.sp.l13.terceiraapp.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding_superior"
+        android:paddingBottom="@dimen/padding_inferior"
+        android:paddingRight="@dimen/padding_esquerda"
+        android:paddingLeft="@dimen/padding_direita"
+        >
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/insera_seu_email"
+            android:layout_marginBottom="10dp"
+            android:drawableRight="@drawable/ic_email"
+            android:background="@drawable/border_edit"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_marginTop="@dimen/margem_superior"
+            android:id="@+id/txtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/insera_seu_senha"
+            android:drawableRight="@drawable/ic_lock"
+            android:padding="10dp"
+            android:background="@drawable/border_edit"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44e12c"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entrar"
+            android:onClick="entrarSistema"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sair"
+            android:onClick="sairSistema"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
